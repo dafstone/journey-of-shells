@@ -1,6 +1,5 @@
-FROM ex2
+FROM shell-presentation-base
 
-RUN echo test
 ADD bashrc /root/.bashrc
 
 CMD ["/bin/bash"]

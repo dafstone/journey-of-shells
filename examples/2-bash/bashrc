@@ -1,1 +1,3 @@
+# Example 2 (bashrc): Inputrc and Bashrc
+
 set -o vi

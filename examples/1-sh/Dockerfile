@@ -1,4 +1,4 @@
-FROM pritunl/archlinux:latest
+FROM shell-presentation-base
 
 RUN pacman -S banner --noconfirm
 
