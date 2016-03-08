@@ -1,0 +1,14 @@
+# Example 2 (inputrc): Inputrc and Bashrc
+
+# Makes the terminal bell visible instead of audible.
+set bell-style visible
+
+# Makes auto-completion ignore case.
+set completion-ignore-case on
+
+# Set Editing Mode
+set editing-mode vi
+
+# History Search
+"\C-p": history-search-backward
+

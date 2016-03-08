@@ -1,3 +1,15 @@
 # Example 2 (bashrc): Inputrc and Bashrc
 
-set -o vi
+# Set Editing Mode to Vi
+# set -o vi
+
+# Don't Allow Duplicates in History
+# export HISTCONTROL=ignoredups
+# export EDITOR=vim
+# export TERM=xterm
+
+# Automatically Change Directory
+shopt -s autocd
+
+# bind '"\e[A": history-search-backward
+# bind '"\e[B": history-search-forward
