@@ -13,3 +13,5 @@ shopt -s autocd
 
 # bind '"\e[A": history-search-backward
 # bind '"\e[B": history-search-forward
+
+source ~/notes
