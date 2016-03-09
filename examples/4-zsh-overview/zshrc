@@ -1,0 +1,17 @@
+export TERM=xterm-256color
+
+# Enable Autocompletion Engine & Prompt Managment
+autoload -U compinit promptinit
+compinit
+promptinit
+
+set -o vi
+
+prompt walters
+
+setopt completealiases
+setopt HIST_IGNORE_DUPS
+
+RPROMPT="$(date "%H:%M")"
+
+cat ~/notes
