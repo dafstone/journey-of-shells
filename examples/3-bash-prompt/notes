@@ -1,9 +1,9 @@
 cat << EOF
 
-Example 2: 
+Example 3: The (env)ironment and the prompt.
 
-- Learn the difference between readline (.inputrc) and bash (.bashrc) and how they work together.
-- See how the bash shell is configured!  (Try bind -v & bind -p)
-- Good time to play a little with grep -v (unmatch) or grep -E (extended regexp)
+- See environment variables (env) & learn the important ones.
+- Configure your prompt (PS1,2,3,4)
+- Good time to play with interpolation $()
 
 EOF
